@@ -1,0 +1,25 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main() 
+{
+    int n = 5, i, sum = 0;
+    int mas[n];
+    for (i=0; i<n; i++)
+    {
+    cout <<"Введите значение " << i+1 <<
+        " элемента: ";
+    cin>> mas[i];
+    }
+    for (i=0; i<n; i++)
+    {
+        for (i=0; i<n; i++)
+        
+        sum = sum + mas[i];
+        
+        cout << mas[i] << "\n";
+    }
+    cout << "\n Сумма: " << sum;
+    return 0;
+}

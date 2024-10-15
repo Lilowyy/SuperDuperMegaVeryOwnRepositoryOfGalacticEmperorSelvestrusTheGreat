@@ -1,0 +1,26 @@
+#include <iostream>
+#include <math.h> 
+using namespace std;
+
+int main()
+{
+float a, x, c;
+cout<<"\nВведите значение "; cin >>a;
+if (a==0)
+{
+cout<<"\n x - любое";
+}
+else
+    {
+        c=(3/a);
+if (a>0)
+{
+cout<<"\n x < c";
+}
+else
+{
+cout<<"\n x > c";
+}
+}
+    return 0;
+}
