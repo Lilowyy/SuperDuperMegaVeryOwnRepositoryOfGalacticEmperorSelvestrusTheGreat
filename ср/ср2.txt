@@ -1,4 +1,4 @@
-//СР2(3)
+//СР2(3.1)
 #include <math.h>
 #include <iostream>
 using namespace std;
@@ -11,4 +11,21 @@ int main()
     r=((sin(x)+cos(y))/(cos(x)-sin(y)))*tan(x*y);
     cout<<"\nОтвет равен - "<<r;
     return 0;
+}
+
+//СР2(3.2)⦁	Задано значение длины отрезка в метрах и миллиметрах. Найти ее величину в дюймах.
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+    float m, mm, inch1, inch2;
+    cout<<"\nМетры - "; cin>>m;
+    cout<<"\nМиллиметры - "; cin>>mm;
+    inch1=m*39,37;
+    inch2=mm/25,4;
+    cout<<"\nМетры в дюймах - "<<inch1;
+    cout<<"\nМиллиметры в дюймах - "<<inch2;
+return 0;
 }
